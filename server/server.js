@@ -18,7 +18,7 @@ app.get('/',(req,res)=>{
     res.send('ApI Working');
 })
 
-app.post('/webhook',clerkWebhooks);
+app.post('/webhooks',clerkWebhooks);
 
 const PORT=process.env.PORT || 5000
 
